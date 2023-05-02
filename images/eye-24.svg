@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24">
+    <defs>
+        <circle id="a" cx="12" cy="12" r="11.2"/>
+        <circle id="c" cx="6" cy="6" r="6"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <circle cx="12" cy="12" r="12" fill="#D8D8D8"/>
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use xlink:href="#a" fill="#ECECEC"/>
+        <circle cx="12.2" cy="2.2" r="11" fill="#FFF" fill-opacity=".4" mask="url(#b)"/>
+        <path fill="#FFF" fill-opacity=".649" d="M1.716 11.82c-.005.13-.007.26-.007.39 0 5.714 4.632 10.346 10.345 10.346 5.714 0 10.346-4.632 10.346-10.346 0-.13-.002-.26-.007-.39-.205 5.533-4.756 9.955-10.339 9.955S1.921 17.353 1.716 11.82Z" mask="url(#b)"/>
+        <g mask="url(#b)">
+            <g transform="translate(6 10.4)">
+                <mask id="d" fill="#fff">
+                    <use xlink:href="#c"/>
+                </mask>
+                <use xlink:href="#c" fill="#000"/>
+                <circle cx="6.2" cy=".2" r="7.8" fill="#FFF" fill-opacity=".2" mask="url(#d)"/>
+            </g>
+        </g>
+    </g>
+</svg>
